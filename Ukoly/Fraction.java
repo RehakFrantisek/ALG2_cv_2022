@@ -1,6 +1,13 @@
-package CV01;
+package Ukoly;
 
-public class Fraction{
+// dodelani bodu z cviceni
+
+// TODO
+// vytvořit zlomek zadaný jedním číslem (např. 3 znamená 3/1)
+// vytvořit zlomek zadaný jako textový řetězec ( 3 4 nebo 3/4 případně jako jedno číslo pokud nemá jmenovatel)
+// při vytváření zlomek převeďte na základní tvar (tip: největší společný dělitel, Euklidův algoritmus)
+
+public class Fraction {
     private int citatel;
     private int jmenovatel;
     private int cislo;
@@ -21,20 +28,6 @@ public class Fraction{
 
     public Fraction(int cislo){
         this.cislo = cislo;
-    }
-
-    public int getCitatel() {
-        return citatel;
-    }
-
-    public int getJmenovatel() {
-        return jmenovatel;
-    }
-
-    public double valueOf() {
-        //System.out.println(citatel);
-        //System.out.println(jmenovatel);
-        return (double)citatel/jmenovatel;
     }
 
     public String toString(){
@@ -59,5 +52,7 @@ public class Fraction{
         }
         return citatel;
     }
+
+
 
 }
