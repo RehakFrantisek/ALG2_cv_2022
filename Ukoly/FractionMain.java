@@ -11,9 +11,11 @@ public class FractionMain {
         CV01.Fraction firstFraction = new CV01.Fraction(6,3);
         CV01.Fraction secondFraction = new CV01.Fraction(zlomek2);
         CV01.Fraction thirdFraction = new Fraction(4);
+        int test = new MathTools().gcd(90,168);
 
         System.out.println(secondFraction); //zlomek zadany jako string
         System.out.println(thirdFraction.transform()); //vrati zlomek zadany jednim cislo + nulu jako nulu
-        System.out.println(firstFraction.Eukleid()); //vrati nejvetsi spolecny delitel
+        // System.out.println(firstFraction.Eukleid()); //vrati nejvetsi spolecny delitel
+        System.out.println(test); //vrati nejvetsi spolecny delitel
     }
 }
