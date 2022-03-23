@@ -47,7 +47,6 @@ public class MoneyBox {
         return count;
     }
 
-    // TODO
     // darek
     public String giftMoney(int gift){
         if (count() > gift){
